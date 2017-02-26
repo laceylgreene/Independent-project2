@@ -17,7 +17,7 @@ h4 {
 
 p,li {
   color: violet;
-  font-family: 'Oswald';
+  font-family: 'Oswald', sans-serif;;
   letter-spacing: 2px;
 }
 
@@ -27,4 +27,11 @@ p,li {
 
 #maui, #oahu, #big {
   display: none;
+  color: violet;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+#results {
+  margin-bottom: 24px;
 }
