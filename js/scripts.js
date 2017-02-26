@@ -7,8 +7,9 @@ $(document).ready(function(){
   var second = $("input:radio[name=event2]:checked").val();
   var kids = $("input:radio[name=children]:checked").val();
 
-  if (climate === 'sun') {
+  if (climate === 'sun' && view === 'city' || 'boonies' && first === 'shop' && second === 'tour' || 'beach' && kids === 'yes' || 'no') {
     $("#maui").show();
+
   }
 
   event.preventDefault();
