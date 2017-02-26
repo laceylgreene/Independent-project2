@@ -24,3 +24,7 @@ p,li {
 #image {
   text-align: center;
 }
+
+#maui, #oahu, #big {
+  display: none;
+}
