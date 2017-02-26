@@ -7,7 +7,7 @@ $(document).ready(function(){
   var second = $("input:radio[name=event2]:checked").val();
   var kids = $("input:radio[name=children]:checked").val();
 
-  if (climate === 'rain' && view === 'boonies' && first === 'hike' && second === 'beach' && kids === 'yes' || 'no') {
+  if (climate === 'rain' && view === 'boonies' && first === 'hike' && second === 'beach' && kids === 'yes') {
     $("#big").show();
   }
   else if (climate === 'sun' && view === 'city' && first === 'shop' && second === 'club' && kids === 'no'){
